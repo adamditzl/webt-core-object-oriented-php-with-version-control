@@ -2,8 +2,9 @@
 
 interface Videointerface
 {
-    private string $name;
-    private string $URL;
-    private string $source;
+    public function getName() : string;
 
+    public function getSource() : string;
+
+    public function getHTML() : string;
 }
