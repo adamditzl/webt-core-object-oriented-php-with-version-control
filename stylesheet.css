@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: lavender;
+}
+h1{
+    text-align: center;
+    color: lightcoral;
+}
+
+section{
+    margin: 10px;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 1.8em;
+    color: white;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a{
+    color: wheat;
+}
+
+a:hover{
+    color: papayawhip;
+}
