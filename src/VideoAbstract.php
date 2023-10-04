@@ -2,8 +2,6 @@
 
 namespace src;
 
-use src\Videointerface;
-
 abstract class VideoAbstract implements Videointerface
 {
     protected string $src;
