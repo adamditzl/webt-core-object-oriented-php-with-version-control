@@ -11,7 +11,7 @@ $youtubes = array(
         );
 $videos = '';
 foreach (array_keys($youtubes) as $array_key) {
-    $newVideo = new YouTube($youtubes[$array_key], $array_key);
+    $newVideo = new YouTube($array_key, $youtubes[$array_key]);
     $video = <<<VIDEO
             <section>
             <p> {$newVideo->getName()}  </p>
@@ -37,3 +37,5 @@ $template = <<<TEMPLATE
 </body>
 </html>
 TEMPLATE;
+
+echo $template;
