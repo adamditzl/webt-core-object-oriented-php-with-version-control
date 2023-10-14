@@ -1,7 +1,7 @@
 <?php
 
 namespace src;
-
+require_once 'Videointerface.php';
 abstract class VideoAbstract implements Videointerface
 {
     protected string $src;
