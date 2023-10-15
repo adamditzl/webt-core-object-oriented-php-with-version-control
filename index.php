@@ -58,6 +58,8 @@ VIMEO;
 
 }
 
+//now using HEREDOC notation to create the template of the website
+//as everything is now in $videos the variable can be called in article
 $template = <<<TEMPLATE
     <!DOCTYPE html>
     <html lang="en">
@@ -75,4 +77,4 @@ $template = <<<TEMPLATE
 </html>
 TEMPLATE;
 
-echo $template;
+echo $template; //$template has to be printed out to actually see it on the website
