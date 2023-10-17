@@ -78,3 +78,7 @@ $template = <<<TEMPLATE
 TEMPLATE;
 
 echo $template; //$template has to be printed out to actually see it on the website
+
+//following command to add a tag
+//git tag -a "v1.0.0" -m "Object Oriented PHP with Version control"
+//git push origin v1.0.0
